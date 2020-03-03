@@ -11,8 +11,10 @@ export const getLaunch = () => dispatch => {
     .get("https://api.spacexdata.com/v3/launches/latest")
     .then(res => {
         console.log(res);
+        dispatch({ type: FETCHING_LAUNCH_SUCCESS, payload: res.data })
     })
     .catch(err => {
         console.log(err);
+        dispatch({ type: FETCHING_LAUNCH_FAILURE, payload: err })
     })
 };

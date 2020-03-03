@@ -1,11 +1,11 @@
 import React from 'react';
-import { getLaunch } from './actions/index';
 import './App.css';
+import SpaceXLaunch from './components/SpaceXLaunch';
 
 function App() {
-  getLaunch();
   return (
     <div className="App">
+      <SpaceXLaunch />
     </div>
   );
 }
