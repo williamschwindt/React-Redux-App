@@ -17,7 +17,7 @@ const SpaceXLaunch = ({ getLaunch ,launchDetails, isFetching, error }) => {
                     <p>{launchDetails.site_name}</p>
                     <p>{launchDetails.details}</p>
                 </div>
-            <button onClick={getLaunch}>click</button>
+            <button onClick={getLaunch}>Most recent launch</button>
         </div>
     )
 }
