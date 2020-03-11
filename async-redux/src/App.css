@@ -1,0 +1,30 @@
+html {
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  width: 400px;
+  margin: 20px auto;
+}
+
+button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 2px rgb(55, 106, 216);
+  cursor: pointer;
+}
+
